@@ -1,0 +1,77 @@
+/*<meta />*/
+
+@import url("Default.css");
+
+@import url("GeneratedClasses.css");
+
+/* Example 1 CSS: Add content to the header */
+div#header-title {
+  color: #cccccc;
+  display: inline-block;
+  position: relative;
+  left: 200px;
+  top: 15px;
+}
+
+div#responsive-header-title {
+  color: #cccccc;
+  display: inline-block;
+  position: relative;
+  left: 100px;
+  top: 13px;
+}
+/* End Example 1 CSS */
+
+/* Example 3 CSS: Move search box to header in responsive layouts */
+
+#responsiveHeader .logo,
+.title-bar-layout a.logo {
+  background-image: url(../Graphics/dc_eq.svg);
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  background-size: contain;
+}
+
+#search-sidebar {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  width: 300px;
+  height: 40px;
+  display: inline-block;
+}
+
+#search-field-sidebar {
+  border-style: solid;
+  box-shadow: none;
+}
+
+/* All the CSS below is used for the ModCop skin in this project */
+
+.tabs-nav li {
+  /* stop inactive tabs being moved down */
+  margin-top: 0;
+}
+
+.tabs-nav li.tabs-nav-active {
+  /* set active tab background */
+  background: #f5f5ff;
+}
+
+.tabs-nav li.tabs-nav-inactive {
+  /* remove box shadow from inactive tabs */
+  box-shadow: none;
+}
+
+li.tabs-nav-inactive:hover,
+li.tabs-nav-inactive:focus {
+  /* add a hover colour on inactive tabs */
+  border-bottom: solid 2px #96bcf7;
+}
+
+div#header,
+div#responsiveHeader {
+  /* adds a border below the desktop and responsive headers */
+  border-bottom: 5px solid #bbbbbb;
+}

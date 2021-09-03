@@ -1,0 +1,740 @@
+/*<meta />*/
+/* SC Dingbats by Steve Caplin https://creativepro.com/how-to-build-font-adobe-illustrator/ */
+@font-face {
+  font-family: "SC Dingbats";
+  src: url("../Fonts/SCDingbats.otf") format("opentype");
+  font-style: normal;
+}
+
+/* From https://www.fontspace.com/combinumerals-font-f3786 */
+@font-face {
+  font-family: "CombiNumerals Pro";
+  src: url("../Fonts/CombiNumerals_Pro_Bold.otf") format("opentype");
+  font-style: normal;
+}
+
+/* From https://www.fontspace.com/crystal-font-f746 */
+@font-face {
+  font-family: "Crystal";
+  src: url("../Fonts/CrystalItalic-R6A.otf") format("opentype");
+  font-style: normal;
+}
+
+body {
+  color: #000000;
+  line-height: 140%;
+  mc-hyphenate: never;
+  font: "source sans pro", sans-serif;
+  font-family: "Source Sans Pro Light", "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  font-size: 10pt;
+}
+
+/* ----------------Headings------------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  page-break-after: avoid;
+  font: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro Bold", "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  clear: both;
+}
+
+h1 {
+  font-size: 150%;
+  line-height: 120%;
+  page-break-before: auto;
+}
+
+h2 {
+  font-size: 125%;
+}
+
+h3 {
+  font-size: 110%;
+  mc-heading-level: 0;
+}
+
+h4 {
+  font-size: 95%;
+  mc-heading-level: 0;
+}
+
+h5 {
+  font-size: 75%;
+  mc-heading-level: 0;
+}
+
+h6 {
+  mc-heading-level: 0;
+}
+
+h1.Appendix {
+  mc-auto-number-format: "GM:Appendix {A+}: ";
+}
+
+h1.Chapter {
+  font-size: 350%;
+  line-height: 250%;
+  text-align: right;
+  margin-top: 50px;
+}
+
+h1.NoTOC,
+h2.NoTOC,
+h3.NoTOC {
+  mc-heading-level: 0;
+}
+/* ----------------<p>------------------- */
+body p {
+  clear: both;
+}
+
+br {
+  padding: 0;
+  margin: 0;
+}
+
+/* ----------------Alerts (DIV format)------------------- */
+
+div.alert {
+  margin: 1em 0 1em 0;
+  clear: both;
+  page-break-inside: avoid;
+}
+
+div.alertBody {
+  margin-left: 115px;
+  font: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro Regular", "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  margin-top: -4em;
+  font-size: 90%;
+}
+
+div.alertBody li {
+  clear: none;
+}
+
+div.alertBody p {
+  clear: none !important;
+}
+
+div.alertLabel {
+  margin-top: 12px;
+}
+
+img.alertIcon {
+  vertical-align: baseline;
+  max-width: 1.15em;
+  padding-right: 0.25em;
+  position: relative;
+  top: 0px;
+}
+
+div.alertLabel span {
+  text-transform: uppercase;
+  font-family: "Source Sans Pro Black", "Source Sans Pro", sans-serif;
+  font-size: 1em;
+  font-weight: 900;
+  border-radius: 2px;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 0.25em;
+  width: 110px;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+}
+
+span.alertDanger {
+  background-color: #ed3426;
+  color: white;
+}
+
+span.alertWarning {
+  background-color: #ff7900;
+  color: black;
+}
+
+span.alertCaution {
+  background-color: #f6bd16;
+  color: black;
+}
+
+span.alertNotice {
+  background-color: #0269ab;
+  color: white;
+  font-style: italic;
+}
+
+/* ----------------Alerts (Table format)------------------- */
+
+table.Alert {
+  width: 100%;
+  table-layout: fixed;
+}
+
+table.Alert td {
+  border: none;
+  //padding:0px!important;
+  vertical-align: top;
+}
+
+table.Alert td:nth-child(2) {
+  width: 75%;
+  font: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro Regular", "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 90%;
+}
+
+table.Alert td:nth-child(1) div {
+  min-width: 110px;
+  max-width: 120px;
+}
+
+table.Alert td:nth-child(1) div span {
+  text-transform: uppercase;
+  font-family: "Source Sans Pro Black", "Source Sans Pro", sans-serif;
+  font-size: 1em;
+  font-weight: 900;
+  border-radius: 2px;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  padding-left: 0;
+  padding-right: 0;
+  margin-right: 0.25em;
+  width: 110px !important;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+}
+
+p.Note {
+  mc-auto-number-format: "{b}Note - {/b}";
+  font-style: italic;
+  mc-auto-number-position: inside-head;
+  mc-auto-number-class: label;
+  page-break-inside: avoid;
+}
+
+p.Tip {
+  mc-auto-number-format: "{b}TIP - {/b}";
+  mc-auto-number-position: inside-head;
+  mc-auto-number-class: label;
+  page-break-inside: avoid;
+  background-image: url("../Graphics/Icons/tip.svg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0px 4px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 12px;
+  padding-right: 0px;
+}
+
+p.Tip:before {
+}
+
+p.CalloutNum {
+  font-family: GCSCallout;
+  font-size: 12pt;
+  vertical-align: text-top;
+  padding: 4pt;
+  padding-top: 0pt;
+}
+
+p.Code {
+  font-family: "Courier New", serif;
+  line-height: 50%;
+}
+
+span.Code {
+  font-family: "Courier New", serif;
+  font-style: normal !important;
+  line-height: 50%;
+}
+
+p.Notice {
+  border-bottom: soild 1px;
+  border-bottom-color: #000;
+  margin-left: 1.5cm;
+  page-break-inside: avoid;
+}
+
+li p {
+  margin: 3pt;
+}
+
+li p.Note {
+}
+
+li p.Notice {
+  margin-left: 1cm;
+}
+
+th p,
+td p {
+  margin: 3pt 0;
+}
+
+td,
+th {
+  vertical-align: top;
+}
+
+td p.Note {
+}
+
+/* ----------------List Classes------------------- */
+ul,
+ol {
+  padding: 0;
+  list-style-position: outside;
+  margin-left: 2em;
+}
+
+div.Legal ul,
+div.Legal ol {
+}
+
+td ul,
+td ol {
+}
+
+li ul,
+li ol {
+}
+
+/* ----------------List Items------------------- */
+ul {
+  list-style-type: disc;
+}
+
+ol {
+}
+
+li {
+  clear: both;
+}
+
+li ul li {
+  list-style-type: square;
+  //margin-left: 2em;
+}
+
+li ol li {
+  list-style-type: lower-alpha;
+}
+
+ul.CheckList > li:marker {
+  font-family: Webdings;
+  content: "c";
+}
+
+ul.Endnote {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.75em;
+}
+/* ----------------TableClasses------------------- */
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+/* Table Header */
+
+tbody {
+}
+
+/* Table rows */
+
+table.nobreak tr {
+  page-break-before: avoid;
+}
+
+/* Table cells */
+
+th {
+  page-break-after: avoid;
+  page-break-inside: avoid;
+  background-color: #ccc;
+  border-top: 1px solid #000;
+  text-align: left;
+  padding-right: 5px;
+  word-wrap: break-word;
+}
+
+td {
+  page-break-before: avoid;
+  /*page-break-inside: avoid;*/
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  word-wrap: break-word;
+  padding: 0px 10px 0px 0px;
+  /*line-height: 1.2;*/
+}
+
+table.noPadding td {
+  padding: 0px !important;
+  vertical-align: bottom;
+}
+
+table.Borderless td,
+td.Borderless,
+th.Borderless {
+  border: none;
+}
+
+td.SubSpec {
+  border-bottom: none;
+}
+
+td.alignRight,
+p.alignRight {
+  text-align: right;
+}
+
+td.textIndent,
+th.textIndent,
+p.textIndent {
+  text-indent: 3em;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+td.textIndent2,
+p.textIndent2,
+th.textIndent2 {
+  text-indent: 5em;
+  white-space: nowrap;
+}
+table.Safety {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 2px solid #000;
+  border-radius: 6px;
+}
+
+table.Safety th,
+th.Safety {
+  background-color: #00a86b;
+  text-align: center;
+  font-family: "Source Sans Pro Black";
+  font-size: 1em;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+}
+
+td.Safety {
+  border: 2px solid #00a86b;
+}
+
+td ul {
+  margin-left: 15px;
+}
+
+td ul > li,
+td ol > li {
+  padding-left: -5px;
+}
+
+td ul > li:marker {
+  content: "\25AA";
+}
+
+td.Checkbox ul {
+  margin-left: 30px;
+}
+
+td.Checkbox ul > li:marker {
+  font-family: Webdings;
+  content: "c";
+}
+
+td ul > li > ul > li:marker,
+td ol > li > ul > li:marker {
+  content: "\25AB";
+}
+
+table.Compact td {
+  line-height: 1;
+}
+
+table.Compact td MadCap|snippetText {
+  vertical-align: 0px !important;
+  line-height: 1 !important;
+}
+
+table.Compact td MadCap|variable {
+  vertical-align: -4px !important;
+  line-height: 1 !important;
+}
+
+table.Compact td li MadCap|variable {
+  vertical-align: 0px !important;
+}
+
+table.Bold td,
+table.Bold th {
+  border: 2px solid #000;
+}
+
+table.Bold th {
+  background-color: white !important;
+}
+
+table {
+}
+
+/* ----------------Spans------------------- */
+span.WarningPreTest {
+}
+
+span.Button {
+}
+
+span.Emphasis {
+  font-style: italic;
+}
+
+span.Hypertext {
+}
+
+span.Field {
+  font-style: italic;
+}
+
+span.Message {
+  letter-spacing: 0em;
+}
+
+span.CalloutNum {
+  font-family: GCSCallout;
+}
+
+span.ManualName {
+  font-style: italic;
+}
+
+/* ----------------Graphics------------------- */
+body img {
+  margin: 0pt;
+}
+
+img.LegalIcon {
+  vertical-align: text-top;
+  float: right;
+}
+
+img.Graphic {
+  width: 70%;
+}
+
+img.GraphicMid {
+  width: 40%;
+}
+
+img.GraphicSmall {
+  width: 15%;
+}
+
+img.GraphicTable {
+  max-width: 40%;
+  max-width: 35vw;
+}
+
+img.GraphicTableMid {
+  max-width: 25%;
+  max-width: 20vw;
+}
+
+img.GraphicTableSmall {
+  max-width: 10%;
+  max-width: 5vw;
+}
+
+img.GraphicCover {
+  max-width: 500px;
+}
+
+img.Schematic {
+  max-width: 90%;
+}
+
+img.NoticeIcon {
+  float: left;
+  vertical-align: baseline;
+  max-width: 0.75cm;
+}
+
+img.TipIcon {
+}
+
+img.InlineIcon {
+  width: 1em;
+  vertical-align: baseline;
+}
+
+/* ----------------Captions------------------- */
+caption {
+  page-break-after: avoid;
+}
+
+caption p {
+  mc-auto-number-format: "CT:Table (chapnum).(n+) - ";
+}
+
+em {
+  font-weight: bold;
+}
+
+/* ----------------Anchor and Cross References------------------- */
+a {
+  color: #717171;
+}
+
+a:link {
+}
+
+a:visited {
+}
+
+a:hover {
+}
+
+a:active {
+}
+
+MadCap|xref {
+  text-decoration: none;
+  color: #024c97;
+}
+
+MadCap|xref.Section {
+  mc-format: "{paratext}";
+}
+
+MadCap|xref.H1 {
+  mc-format: "{paratext}";
+}
+
+MadCap|xref.H2andH3 {
+  mc-format: "{paratext}";
+}
+
+MadCap|xref.H4 {
+  mc-format: "{paratext}";
+}
+
+MadCap|xref.Page {
+  mc-format: "page {page}";
+}
+
+MadCap|xref.Table {
+  mc-format: "{paranumonly}";
+}
+
+MadCap|xref.Figure {
+  mc-format: "{paranumonly}";
+}
+
+MadCap|xref.Caption,
+MadCap|xref.Endmatter {
+  mc-format: "{paranumonly} {paratext}";
+}
+
+MadCap|xref.A1 {
+  mc-format: "Appendix {paranumonly}, {paratext}";
+}
+
+MadCap|xref:hover {
+}
+
+MadCap|bodyProxy {
+}
+
+MadCap|breadcrumbProxy {
+}
+
+MadCap|popupHead {
+}
+
+MadCap|equation {
+  max-width: 50%;
+}
+
+p.KWN {
+  page-break-after: after;
+}
+
+div.Notice {
+  border-bottom: solid 1pt #000000;
+  border-top: solid 1pt #000000;
+  margin: 12pt 0 12pt 1.5cm;
+}
+
+/* ----------------Math------------------- */
+span.numerator {
+  font-size: 0.7em;
+  line-height: 0.7em;
+  vertical-align: 0.3em;
+}
+
+span.numerator::after {
+  content: "/";
+  font-size: 0.8em;
+  line-height: 0.8em;
+}
+
+span.denominator {
+  font-size: 0.7em;
+  line-height: 0.7em;
+  vertical-align: -0.2em;
+}
+
+span.denominator sup {
+  vertical-align: 0.5em;
+}
+
+td span.numerator,
+td span.denominator {
+}
+
+/* Annotations */
+span.annotate {
+  font-family: "CombiNumerals Pro";
+}
+
+td span.annotate {
+  font-size: 1.5em;
+  line-height: 1.15em;
+  height: 1em;
+  vertical-align: bottom;
+}
+
+span.LCD {
+  font-family: "Crystal";
+}
+
+span.iconize {
+  font-family: "SC Dingbats";
+}
+
+span.authornote {
+  background-color: yellow;
+  border: 0px;
+  border-radius: 5px;
+  padding: 2px;
+}

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="14" MadCap:lastHeight="236" MadCap:lastWidth="453">
+    <head>
+        <link href="../Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <!-- Google code prettify  -->
+        <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js">
+        </script>
+    </head>
+    <body>
+        <MadCap:breadcrumbsProxy />
+        <MadCap:miniTocProxy MadCap:autonum="In this section" />
+        <MadCap:bodyProxy />
+        <MadCap:snippetBlock src="../Snippets/Footer.flsnp" />
+    </body>
+</html>

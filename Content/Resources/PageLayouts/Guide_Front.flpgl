@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+    <Page Name="Left" Width="800" Height="800" Padding="1in" PageSize="A4" PaddingLeft="0" PaddingRight="0" PaddingTop="0" PaddingBottom="0" PageType="left">
+        <Frame X="76px" Y="1045px" Width="643px" Height="32px" Flow="footer" Right="75px" Bottom="46px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../Snippets/Watermark.flsnp" MadCap:conditions="Global.DRAFT" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        <xhtml:p xhtml:class="FooterLeft"><MadCap:variable xhtml:name="System.PageNumber" xhtml:style="font-weight: bold;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> | <MadCap:variable xhtml:name="Global.Document Name" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="76px" Y="46px" Width="643px" Height="32px" Flow="header" Right="75px" Bottom="1045px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>&#160;</xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="body" ColumnCount="1" ColumnGap="0.65in" ColumnDivider="Solid 1pt Black" Width="643px" Height="875px" X="76px" Y="123px" Right="75px" Bottom="125px" Anchors="">
+        </Frame>
+    </Page>
+    <Page Width="800" Height="800" Padding="1in" PageSize="A4" PaddingLeft="0" PaddingRight="0" PaddingTop="0" PaddingBottom="0" PageType="right" Name="Right">
+        <Frame Flow="footer" Height="32px" Right="75px" Bottom="46px" X="76px" Y="1045px" Width="643px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../Snippets/Watermark.flsnp" MadCap:conditions="Global.DRAFT" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        <xhtml:p xhtml:class="Footer"><MadCap:variable xhtml:name="Global.Document Name" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> | <MadCap:variable xhtml:name="System.PageNumber" xhtml:style="font-weight: bold;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="76px" Y="46px" Width="643px" Height="32px" Flow="header" Right="75px" Bottom="1045px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>&#160;</xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="body" ColumnCount="1" ColumnGap="0.65in" ColumnDivider="Solid 1pt Black" Width="643px" Height="875px" X="76px" Y="123px" Right="75px" Bottom="125px" Anchors="">
+        </Frame>
+    </Page>
+    <Page Width="800" Height="800" Padding="1in" PageSize="A4" PaddingLeft="0" PaddingRight="0" PaddingTop="0" PaddingBottom="0" PageType="emptyleft" Name="Empty Left">
+        <Frame X="76px" Y="1045px" Width="643px" Height="32px" Flow="footer" Right="75px" Bottom="46px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../Snippets/Watermark.flsnp" MadCap:conditions="Global.DRAFT" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        <xhtml:p xhtml:class="FooterLeft"><MadCap:variable xhtml:name="System.PageNumber" xhtml:style="font-weight: bold;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> | <MadCap:variable xhtml:name="Global.Document Name" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="76px" Y="46px" Width="643px" Height="32px" Flow="header" Right="75px" Bottom="1045px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../Snippets/Watermark.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="body" ColumnCount="1" ColumnGap="0.65in" ColumnDivider="Solid 1pt Black" Width="643px" Height="875px" X="76px" Y="123px" Right="75px" Bottom="125px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../Snippets/Watermark.flsnp" MadCap:conditions="Global.DRAFT" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Width="800" Height="800" Padding="1in" PageSize="A4" PaddingLeft="0" PaddingRight="0" PaddingTop="0" PaddingBottom="0" PageType="emptyright" Name="Empty Right">
+        <Frame Flow="footer" Height="32px" Right="75px" Bottom="46px" X="76px" Y="1045px" Width="643px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../Snippets/Watermark.flsnp" MadCap:conditions="Global.DRAFT" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        <xhtml:p xhtml:class="Footer"><MadCap:variable xhtml:name="Global.Document Name" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> | <MadCap:variable xhtml:name="System.PageNumber" xhtml:style="font-weight: bold;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="76px" Y="46px" Width="643px" Height="32px" Flow="header" Right="75px" Bottom="1045px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../Snippets/Watermark.flsnp" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="body" ColumnCount="1" ColumnGap="0.65in" ColumnDivider="Solid 1pt Black" Width="643px" Height="875px" X="76px" Y="123px" Right="75px" Bottom="125px" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <MadCap:snippetBlock xhtml:src="../Snippets/Watermark.flsnp" MadCap:conditions="Global.DRAFT" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Width="800" Height="800" Padding="1in" PageSize="A4" PaddingLeft="0" PaddingRight="0" PaddingTop="0" PaddingBottom="0" PageType="first" Name="First" BleedLeft="0.50in" BleedRight="0.50in" BleedTop="0.50in" BleedBottom="0.50in">
+        <Frame Flow="footer" Height="60px" Right="75px" Bottom="48px" X="76px" Y="1015px" Width="643px" Anchors="" VerticalAlign="bottom">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;" xhtml:class="noPadding">
+                            <xhtml:col />
+                            <xhtml:col />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td xhtml:class="borderless">
+                                        <xhtml:p xhtml:class="Doc_ID"><MadCap:variable xhtml:name="Global.Revision" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></MadCap:variable>&#160;<MadCap:variable xhtml:name="Global.Revision Number" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></MadCap:variable></xhtml:p>
+                                        <xhtml:p xhtml:class="Doc_ID"><MadCap:variable xhtml:name="Global.Month" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />&#160;<MadCap:variable xhtml:name="Global.Year" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                                        <xhtml:p xhtml:class="Doc_ID"><MadCap:variable xhtml:name="Global.Document Code" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />000-<MadCap:variable xhtml:name="Global.Document Type" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />-<MadCap:variable xhtml:name="Global.Document Number" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />-<MadCap:variable xhtml:name="Global.Revision Number" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                                        <xhtml:p xhtml:class="Doc_ID"><MadCap:variable xhtml:name="Global.Version" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> <MadCap:variable xhtml:name="Global.Version Number" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:class="borderless">
+                                        <xhtml:p xhtml:class="CoFooter">&#160;</xhtml:p>
+                                        <xhtml:p xhtml:class="CoFooter">&#160;</xhtml:p>
+                                        <xhtml:p xhtml:class="CoFooter"><MadCap:variable xhtml:name="Global.Company Website" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                                        </xhtml:p>
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                        <MadCap:snippetBlock xhtml:src="../Snippets/Watermark.flsnp" MadCap:conditions="Global.DRAFT" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="-83px" Y="-77px" Width="960px" Height="224px" Right="-83px" Bottom="976px" BackgroundRepeat="no-repeat" Anchors="" BackgroundImage="none" BackgroundColor="#0063a7" BackgroundType="Solid" BackgroundPositionX="right" BackgroundPositionY="center" Flow="decoration0" />
+        <Frame X="76px" Y="188px" Width="432px" Height="67px" Flow="body" Right="286px" Bottom="868px" Anchors="" />
+        <Frame X="76px" Y="326px" Width="643px" Height="502px" FlowIndex="1" Flow="body" Right="75px" Bottom="295px" Anchors="" />
+        <Frame X="96px" Y="42px" Width="126px" Height="67px" Flow="decoration4" Right="572px" Bottom="1014px" BackgroundImage="../Graphics/ffe_1.svg" BackgroundRepeat="stretch" Anchors="" />
+        <Frame X="542px" Y="1015px" Width="181px" Height="51px" Flow="decoration3" Right="71px" Bottom="57px" BackgroundImage="../Graphics/dc_eq.svg" BackgroundRepeat="stretch" Anchors="" />
+    </Page>
+</PageStyles>

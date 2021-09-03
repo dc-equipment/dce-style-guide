@@ -1,0 +1,621 @@
+/* Styles for printed (PDF) output */
+
+@media print {
+  /* Body */
+  body {
+  }
+
+  /* Headings */
+  h1 {
+    font-weight: bolder;
+    /*mc-auto-number-position: float-right;
+		mc-auto-number-format: 'H:{chapnum}	';*/
+    mc-auto-number-class: Hidden;
+  }
+
+  h2 {
+    font-weight: bolder;
+    /*mc-auto-number-format: 'H:{chapnum}.{Cn+}	';*/
+    mc-hyphenate: never;
+    page-break-after: avoid;
+  }
+
+  h3 {
+    /*mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 1.5cm;
+		mc-auto-number-format: 'H:{chapnum}.{Cn}.{Cn+}	';*/
+    page-break-after: avoid;
+  }
+
+  p.Break::before {
+    content: "";
+    background: none;
+  }
+
+  /*Links*/
+  MadCap|xref.Section {
+    mc-format: "{paratext}";
+  }
+
+  MadCap|xref.H1 {
+    mc-format: "Chapter {paranumonly}, {paratext}";
+  }
+
+  MadCap|xref.H2andH3 {
+    mc-format: "{paratext}";
+  }
+
+  MadCap|xref.H4 {
+    mc-format: "{paratext}";
+  }
+
+  /* ----------------Graphics------------------- */
+  body img {
+    width: 100%;
+  }
+
+  img.LegalIcon {
+  }
+
+  img.Graphic {
+  }
+
+  img.GraphicMid {
+  }
+
+  img.GraphicSmall {
+  }
+
+  img.GraphicTable {
+    /*max-width: 35vh;*/
+  }
+
+  img.GraphicTableMid {
+    /*max-width: 20vh;*/
+  }
+
+  img.GraphicTableSmall {
+    /*max-width: 5vh;*/
+  }
+
+  img.GraphicCover {
+    max-width: 400px;
+  }
+
+  img.Schematic {
+    max-width: 90%;
+  }
+
+  img.NoticeIcon {
+    float: left;
+    vertical-align: baseline;
+    max-width: 0.75cm;
+  }
+
+  img.TipIcon {
+  }
+
+  div.address {
+    vertical-align: bottom;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  div.address h2 {
+    mc-heading-level: 0;
+    color: white;
+  }
+
+  div.address p {
+    color: white;
+  }
+
+  body div.copyright {
+    frame-break-before: always;
+    position: relative;
+    bottom: 10px;
+  }
+
+  div.alertLabel span {
+    width: 90px !important;
+  }
+  div.alertBody {
+    margin-left: 95px !important;
+  }
+  div.alertLabel {
+    margin-top: 0px !important;
+  }
+  div.alertBody {
+    margin-top: -3.5em !important;
+  }
+}
+
+/* Styles for printed (MS Word) output */
+
+@media word {
+  /* Body */
+  body {
+  }
+
+  /* Headings */
+  h1 {
+    font-weight: bolder;
+    /*mc-auto-number-position: float-right;
+		mc-auto-number-format: 'H:{chapnum}	';*/
+    mc-auto-number-class: Hidden;
+  }
+
+  h2 {
+    font-weight: bolder;
+    /*mc-auto-number-format: 'H:{chapnum}.{Cn+}	';*/
+    mc-hyphenate: never;
+    page-break-after: avoid;
+  }
+
+  h3 {
+    /*mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 1.5cm;
+		mc-auto-number-format: 'H:{chapnum}.{Cn}.{Cn+}	';*/
+    page-break-after: avoid;
+  }
+
+  p.Break::before {
+    content: "";
+    background: none;
+  }
+
+  /*Links*/
+  MadCap|xref.Section {
+    mc-format: "{color #024C97}{paratext}{/color}";
+  }
+
+  MadCap|xref.H1 {
+    mc-format: "Chapter {paranumonly}, {paratext}";
+  }
+
+  MadCap|xref.H2andH3 {
+    mc-format: "{color #024C97}{paranum} {paratext}{/color}";
+  }
+
+  MadCap|xref.H4 {
+    mc-format: "{paratext}";
+  }
+
+  /* ----------------Graphics------------------- */
+  body img {
+    width: 100%;
+  }
+
+  img.LegalIcon {
+  }
+
+  img.Graphic {
+    width: 12cm !important;
+  }
+
+  img.GraphicMid {
+    width: 10cm !important;
+  }
+
+  img.GraphicSmall {
+    width: 8cm !important;
+  }
+
+  img.GraphicTable {
+    max-width: 35vh;
+  }
+
+  img.GraphicTableMid {
+    max-width: 20vh;
+  }
+
+  img.GraphicTableSmall {
+    max-width: 5vh;
+  }
+
+  img.GraphicCover {
+    max-width: 500px;
+  }
+
+  img.Schematic {
+    max-width: 90%;
+  }
+
+  img.NoticeIcon {
+    float: left;
+    vertical-align: baseline;
+    max-width: 0.75cm;
+  }
+
+  img.TipIcon {
+  }
+
+  div.address {
+    vertical-align: bottom;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  div.address h2 {
+    mc-heading-level: 0;
+    color: white;
+  }
+
+  div.address p {
+    color: white;
+  }
+
+  div.alertLabel::after {
+    content: "\A";
+    white-space: pre;
+  }
+
+  div.alert,
+  div.alertBody,
+  div.alertLabel {
+    mc-conditions: "PDFOnly.Div";
+    mc-exclude-action: "unbind";
+  }
+
+  span.alertDanger,
+  span.alertWarning,
+  span.alertCaution,
+  span.alertNotice {
+    background-color: none;
+    font-weight: bold;
+    content: " ";
+    display: block;
+  }
+
+  span.alertDanger,
+  span.alertDanger ~ .alertText {
+    color: red;
+  }
+
+  span.alertWarning,
+  span.alertWarning ~ .alertText {
+    color: orange;
+  }
+
+  span.alertCaution,
+  span.alertCaution ~ .alertText {
+    color: yellow;
+  }
+
+  span.alertNotice,
+  span.alertNotice ~ .alertText {
+    color: steelblue;
+  }
+
+  p.alertText::before {
+    //content: " ";
+  }
+
+  div.Introduction {
+    display: none;
+  }
+
+  p.ChapterHead,
+  p.ChapterNum {
+    display: none;
+  }
+}
+
+p.TitleBook {
+  font-size: 2em;
+  font-weight: 700;
+  font-family: "Orbitron";
+}
+
+p.TitleName {
+  mc-hyphenate: never;
+  font-size: 2em;
+  font-family: "Orbitron";
+}
+
+p.SubtitleBook,
+span.SubtitleBook {
+  mc-hyphenate: never;
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: "Orbitron";
+}
+
+p.Doc_ID {
+  font-size: 0.75em;
+  line-height: 0.5em;
+}
+
+p.Page1 {
+  mc-auto-number-format: "GH: {Gn=1}";
+}
+
+p.Break {
+  mc-hyphenate: never;
+  page-break-after: always;
+}
+
+p.Break::before {
+  content: "❰⚋ page break ⚋❱";
+  display: block;
+  text-align: center;
+  font-size: 6pt;
+  background: #d3d3d3;
+}
+
+/* Chapter first page */
+p.ChapterHead {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: "Source Sans Pro Black";
+  margin-top: 4em;
+  margin-bottom: -6em;
+  text-align: right;
+}
+
+p.ChapterNum {
+  font-size: 4em;
+  font-weight: 900;
+  font-family: "Source Sans Pro Black";
+  text-align: right;
+}
+
+/* Page Layout */
+p.HeaderLeft {
+  text-align: left;
+  mc-auto-number-position: outside-head;
+  mc-auto-number-format: "{b}{chapnum}{/b}";
+  mc-auto-number-offset: 0.3cm;
+}
+
+p.HeaderRight {
+  text-align: right;
+  mc-auto-number-position: outside-tail;
+  mc-auto-number-format: "{b}{chapnum}{/b}";
+  mc-auto-number-offset: 0.2cm;
+}
+
+p.HeaderZLeft {
+  text-align: left;
+}
+
+p.HeaderZRight {
+  text-align: right;
+}
+
+p.Footer {
+  text-align: right;
+  font-size: 0.75em;
+}
+
+p.FooterCenter {
+  text-align: center;
+  mc-auto-number-position: none;
+  mc-auto-number-format: "GH:{b}{Gn+}{/b}";
+  mc-auto-number-offset: 0.5cm;
+}
+
+p.FooterLeft {
+  text-align: left;
+  font-size: 0.75em;
+  /*mc-auto-number-position: outside-head;*/
+  /*mc-auto-number-format: 'GH:{b}{Gn+}{/b}';*/
+  /*mc-auto-number-offset: 0.50cm;*/
+}
+
+p.FooterRight {
+  text-align: right;
+  font-size: 0.75em;
+  /*mc-auto-number-position: outside-tail;*/
+  /*mc-auto-number-format: 'GH:{b}{Gn+}{/b}';*/
+  /*mc-auto-number-offset: 0.20cm;*/
+}
+
+p.CoFooter {
+  text-align: right;
+  font-size: 0.75em;
+  font-family: "Orbitron";
+  vertical-align: bottom !important;
+}
+
+p.FrameBreak {
+  frame-break-after: always;
+}
+
+span.Hidden {
+  display: none;
+}
+
+body div.copyright {
+  width: 50%;
+  text-align: justify;
+}
+
+/* Frontmatter */
+
+MadCap|tocProxy {
+  border-top: none;
+  margin-right: 0.25in;
+  padding: 0 !important;
+}
+
+p.TOCHeading {
+  font: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro Semi-bold";
+  font-weight: 600;
+  font-size: 1.25em;
+  mc-heading-level: 0;
+}
+
+p.TOC1 {
+  font-family: "Source Sans Pro Semi-bold";
+  font-weight: 600;
+  page-break-after: avoid;
+  margin-bottom: 0;
+  mc-auto-number-position: none;
+  mc-leader-format: "none";
+  mc-leader-offset: 0;
+  mc-pagenum-display: none;
+  mc-hidden: hidden;
+}
+
+p.TOC2 {
+  font-size: 0.95em;
+  font-weight: normal;
+  line-height: 0.95em;
+  margin: 0 0 0 1em;
+}
+
+p.TOC3 {
+  font-size: 0.95em;
+  line-height: 0.95em;
+  font-weight: normal;
+  margin: 0 0 0 2em;
+}
+
+/* Cover Page */
+div.Cover {
+  display: block;
+}
+
+div.Cover .coverTitle {
+  width: 25%;
+  float: left;
+}
+
+div.Cover .coverImage {
+  width: 75%;
+  float: left;
+}
+
+/* TOC Proxies */
+MadCap|miniTocProxy {
+  border-top-style: none;
+  padding-top: 0px;
+  padding-left: 0;
+  margin-left: 0;
+  /*mc-toc-depth: 2;
+  display: list-item;
+	list-style-type: inherit;
+  list-style-position: outside;
+	list-style-image: url('../Graphics/Icons/caret-right.svg');*/
+}
+
+p.MiniTOC1,
+p.MiniTOC1_0,
+p.MiniTOC2,
+p.MiniTOC2_0,
+p.MiniTOC3,
+p.MiniTOC3_0,
+p.MiniTOC4,
+p.MiniTOC4_0,
+p.MiniTOC5,
+p.MiniTOC5_0 {
+  color: #024c97;
+  mc-auto-number-position: outside-head;
+  mc-auto-number-format: "\25a0 ";
+  mc-leader-format: "";
+  mc-leader-offset: 0;
+  mc-leader-align: right;
+  border-top-style: none;
+  vertical-align: baseline;
+  mc-pagenum-display: none;
+  mc-hidden: hidden;
+  padding: 0;
+  margin: 0;
+  font-size: 150%;
+  font-weight: inherit;
+  text-align: right;
+}
+
+/*
+.MCMiniTocBox p {
+	display: list-item;
+	list-style-type: inherit;
+  list-style-position: outside;
+	list-style-image: url('../Graphics/Icons/caret-right.svg');
+}
+*/
+
+/* Back cover */
+div.address {
+}
+
+div.address h2 {
+  mc-heading-level: 0;
+  font-weight: bold;
+  font-weight: 700;
+  font-family: "Orbitron";
+}
+
+div.address p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.75em;
+}
+
+/* ----------------Divs------------------- */
+div.Introduction {
+}
+
+div.Introduction h2 {
+  mc-heading-level: 0 !important;
+  mc-auto-number-position: none !important;
+  mc-auto-number-format: none !important;
+  text-transform: uppercase;
+  font-size: 0.5em;
+  letter-spacing: 0.5em;
+}
+
+div.Introduction ul {
+  list-style-type: none;
+  margin: 0;
+  /*list-style-type: inherit;
+  list-style-position: inside;
+	list-style-image: url('../Graphics/Icons/caret-right.svg');
+  margin-left: -0.25em;*/
+}
+
+div.Introduction li::before {
+  content: "⯈";
+  color: black;
+}
+
+div.Introduction td:nth-child(odd):after {
+  content: "⯇";
+  color: black;
+}
+
+div.Introduction td {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+div.toc th,
+div.toc td,
+div.Introduction td,
+div.Introduction th {
+  border-top: none !important;
+  border-bottom: none !important;
+}
+
+/* ----------------Watermark------------------- */
+div.Watermark {
+  display: block;
+  float: right;
+  z-index: -1;
+  position: absolute; /*newly added*/
+  right: 4 cm; /*newly added*/
+  bottom: 8 cm; /*newly added*/
+}
+
+div.Watermark img {
+  width: 260px;
+  height: 260px;
+  opacity: 0.25;
+}

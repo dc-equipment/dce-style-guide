@@ -1,0 +1,11 @@
+/*<meta />*/
+
+@import url("Default.css");
+
+@import url("GeneratedClasses.css");
+
+@import url("Print.css");
+
+p.HeaderLeft {
+  mc-auto-number-position: outside-tail;
+}
