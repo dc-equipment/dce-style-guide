@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet
+  conditions="">
+  <Variable
+    Name="Radio Firmware Ubiquiti"
+    Comment="WA ubiquiti radio firmware"
+    EvaluatedDefinition="&lt;Radio Firmware Ubiquiti&gt;">&lt;Radio Firmware Ubiquiti&gt;</Variable>
+  <Variable
+    Name="Radio Firmware Cambium"
+    Comment="WA Cambium radio firmware"
+    EvaluatedDefinition="&lt;Radio Firmware Cambium&gt;">&lt;Radio Firmware Cambium&gt;</Variable>
+</CatapultVariableSet>
