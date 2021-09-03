@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet>
+  <ConditionTag
+    Comment=""
+    Name="ScreenOnly"
+    BackgroundColor="Blue" />
+  <ConditionTag
+    Comment=""
+    Name="PrintOnly"
+    BackgroundColor="Red" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="Web"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ffa500"
+    Name="Tablet"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ff69b4"
+    Name="Comments"
+    Comment="Author comments" />
+  <ConditionTag
+    BackgroundColor="#7cfc00"
+    Name="MAINT150"
+    Comment="150 hours maintenance"
+    OriginalName="MAINT150" />
+  <ConditionTag
+    BackgroundColor="#48d1cc"
+    Name="MAINT500"
+    Comment="500 hours maintenance"
+    OriginalName="MAINT500" />
+  <ConditionTag
+    BackgroundColor="#00bfff"
+    Name="MAINT1000"
+    Comment="1000 hours maintenance"
+    OriginalName="MAINT1000" />
+  <ConditionTag
+    BackgroundColor="#8fbc8b"
+    Name="MAINTPERIODIC"
+    Comment="Periodic maintenance"
+    OriginalName="MAINT1000" />
+  <ConditionTag
+    BackgroundColor="#7fffd4"
+    Name="MAINT100"
+    Comment="100 hours maintenance"
+    OriginalName="MAINT150" />
+  <ConditionTag
+    BackgroundColor="#fffacd"
+    Name="MAINT200"
+    Comment="200 hours maintenance"
+    OriginalName="MAINT150" />
+  <ConditionTag
+    BackgroundColor="#556b2f"
+    Name="MAINT400"
+    Comment="400 hours maintenance"
+    OriginalName="MAINT150" />
+  <ConditionTag
+    BackgroundColor="#8b008b"
+    Name="WinchAssist"
+    Comment="Winch Assist"
+    OriginalName="WinchAssist" />
+  <ConditionTag
+    BackgroundColor="#00008b"
+    Name="GrappleCarriage"
+    Comment="Grapple Carriage"
+    OriginalName="GrappleCarriage" />
+  <ConditionTag
+    BackgroundColor="#d2b48c"
+    Name="PDFOnly"
+    Comment="Used to exclude topics from WORD output" />
+  <ConditionTag
+    BackgroundColor="#ff00ff"
+    Name="SvcMan"
+    Comment="Service manual content only"
+    OriginalName="SvcMan" />
+  <ConditionTag
+    BackgroundColor="#ffff00"
+    Name="TechMan"
+    Comment="Technical manual content only"
+    OriginalName="TechMan" />
+  <ConditionTag
+    BackgroundColor="#87cefa"
+    Name="OpMan"
+    Comment="Operator's manual content only"
+    OriginalName="OpMan" />
+  <ConditionTag
+    BackgroundColor="#778899"
+    Name="WrkMan"
+    Comment="Workshop manual content only" />
+  <ConditionTag
+    BackgroundColor="#ff6347"
+    Name="DRAFT"
+    Comment="DRAFT watermark"
+    OriginalName="WatermarkDRAFT" />
+  <ConditionTag
+    BackgroundColor="#cccc00"
+    Name="WinchBuildModular"
+    Comment="Modular winch"
+    OriginalName="WinchBuildModular" />
+  <ConditionTag
+    BackgroundColor="#996600"
+    Name="WinchBuildNonModular"
+    Comment="Non modular winch" />
+</CatapultConditionTagSet>
