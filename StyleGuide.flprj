@@ -1,3 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultProject Version="1" MasterStylesheet="/Content/Resources/Stylesheets/Styles.css" MasterPageLayout="/Content/Resources/PageLayouts/Default.flpgl" MasterStylesheetOverride="True" xml:lang="en-us" SourceControlBound="true" Comment="This template contains a minimum number of content and project files, including a single topic. It is the best choice for those who want to begin with a skeleton project." SourceControlProviderType="Git" ProjectGuid="a7e207b6-8035-4f6d-a813-fd389c0acb59">
+    <Synchronize>
+        <Mapping ProjectPath="Project/ConditionTagSets/Global.flcts" ExternalPath="https://moutere.sharepoint.com/sites/Design/Shared Documents/Product Manuals/Flare/Project/ConditionTagSets/Global.flcts" />
+        <Mapping ProjectPath="Project/Skins/Default.flskn" ExternalPath="https://moutere.sharepoint.com/sites/Design/Shared Documents/Product Manuals/Flare/Project/Skins/Default.flskn" />
+        <Mapping ProjectPath="Project/Skins/HTML5 - Side Navigation.flskn" ExternalPath="https://moutere.sharepoint.com/sites/Design/Shared Documents/Product Manuals/Flare/Project/Skins/HTML5 - Side Navigation.flskn" />
+        <Mapping ProjectPath="Project/Skins/HTML5 - Top Navigation.flskn" ExternalPath="https://moutere.sharepoint.com/sites/Design/Shared Documents/Product Manuals/Flare/Project/Skins/HTML5 - Top Navigation.flskn" />
+        <Mapping ProjectPath="Project/VariableSets/Global.flvar" ExternalPath="https://moutere.sharepoint.com/sites/Design/Shared Documents/Product Manuals/Flare/Project/VariableSets/Global.flvar" />
+        <Mapping ProjectPath="Project/VariableSets/Winch.flvar" ExternalPath="https://moutere.sharepoint.com/sites/Design/Shared Documents/Product Manuals/Flare/Project/VariableSets/Winch.flvar" />
+        <Mapping ProjectPath="Content/Resources/" ExternalPath="https://moutere.sharepoint.com/sites/Design/Shared Documents/Product Manuals/Flare/Resources/" />
+    </Synchronize>
 </CatapultProject>
