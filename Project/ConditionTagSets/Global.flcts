@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CatapultConditionTagSet>
   <ConditionTag
-    Comment=""
-    Name="ScreenOnly"
+    Comment="Used to exclude product-specific content from documents"
+    Name="ProductOnly"
     BackgroundColor="Blue" />
   <ConditionTag
     Comment=""

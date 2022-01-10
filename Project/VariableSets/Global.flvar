@@ -3,111 +3,61 @@
   conditions="">
   <Variable
     Name="Company Name"
-    Comment=""
+    Comment="GLOBAL"
     Definition="Some text"
-    EvaluatedDefinition="DC Equipment">DC Equipment</Variable>
-  <Variable
-    Name="Document Name"
-    Comment="Service Manual"
-    OriginalName="PDFGuideTitle"
-    EvaluatedDefinition="&lt;Document Name&gt;">&lt;Document Name&gt;</Variable>
-  <Variable
-    Name="Document Type"
-    OriginalName="VersionNumberDot"
-    EvaluatedDefinition="&lt;Document Type&gt;"
-    Comment="The DCE doc type — usually MANU">&lt;Document Type&gt;</Variable>
+    EvaluatedDefinition="Falcon Forestry Equipment">Falcon Forestry Equipment</Variable>
   <Variable
     Name="Year"
-    Comment=""
+    Comment="GLOBAL"
     Type="DateTime"
     LastUpdated="2016-02-16T22:11:15.8176589-08:00"
     EvaluatedDefinition="yyyy">yyyy</Variable>
   <Variable
     Name="Company Name (Bug)"
-    Comment=""
-    EvaluatedDefinition="DC Equipment™">DC Equipment™</Variable>
-  <Variable
-    Name="Application"
-    Comment="The machine acronym (GC, FC)"
-    EvaluatedDefinition="&lt;Machine Acronym&gt;">&lt;Machine Acronym&gt;</Variable>
+    Comment="GLOBAL"
+    EvaluatedDefinition="Falcon Forestry Equipment™">Falcon Forestry Equipment™</Variable>
   <Variable
     Name="Month"
-    Comment=""
+    Comment="GLOBAL"
     EvaluatedDefinition="&lt;Month&gt;">&lt;Month&gt;</Variable>
   <Variable
     Name="Language"
-    Comment=""
+    Comment="GLOBAL"
     EvaluatedDefinition="ENG">ENG</Variable>
   <Variable
-    Name="Machine Type"
-    Comment="winch or carriage"
-    EvaluatedDefinition="&lt;Machine Type&gt;">&lt;Machine Type&gt;</Variable>
-  <Variable
     Name="Product Name"
-    Comment=""
+    Comment="GLOBAL"
     EvaluatedDefinition="&lt;Product Name&gt;">&lt;Product Name&gt;</Variable>
   <Variable
-    Name="Product Name (Bug)"
-    Comment=""
-    EvaluatedDefinition="&lt;Product Name Bug&gt;">&lt;Product Name Bug&gt;</Variable>
-  <Variable
     Name="Revision"
-    Comment=""
+    Comment="GLOBAL"
     EvaluatedDefinition="Revision">Revision</Variable>
   <Variable
-    Name="Revision Number"
-    Comment=""
-    EvaluatedDefinition="&lt;Revision Number&gt;">&lt;Revision Number&gt;</Variable>
-  <Variable
     Name="Version"
-    Comment=""
+    Comment="GLOBAL"
     EvaluatedDefinition="Version">Version</Variable>
   <Variable
-    Name="Version Number"
-    Comment=""
-    EvaluatedDefinition="&lt;Version Number&gt;">&lt;Version Number&gt;</Variable>
-  <Variable
-    Name="Product Version"
-    Comment=""
-    EvaluatedDefinition="&lt;Product Version&gt;">&lt;Product Version&gt;</Variable>
-  <Variable
     Name="Product Range"
-    Comment=""
-    EvaluatedDefinition="Falcon Forestry Equipment">Falcon Forestry Equipment</Variable>
-  <Variable
-    Name="Document Number"
-    Comment="For example A0058"
-    EvaluatedDefinition="&lt;Document Number&gt;">&lt;Document Number&gt;</Variable>
+    Comment="GLOBAL"
+    EvaluatedDefinition="Falcon">Falcon</Variable>
   <Variable
     Name="Company Address"
-    Comment=""
+    Comment="GLOBAL"
     EvaluatedDefinition="46A Factory Road, Brightwater, Nelson  7022, New Zealand">46A Factory Road, Brightwater, Nelson  7022, New Zealand</Variable>
   <Variable
     Name="Company Phone"
-    Comment=""
+    Comment="GLOBAL"
     EvaluatedDefinition="+64 3 544 7438">+64 3 544 7438</Variable>
   <Variable
     Name="Company Website"
-    Comment=""
+    Comment="GLOBAL"
     EvaluatedDefinition="dcforestryequipment.com">dcforestryequipment.com</Variable>
   <Variable
     Name="Company Email"
-    Comment=""
+    Comment="GLOBAL"
     EvaluatedDefinition="" />
   <Variable
-    Name="Radio Firmware Ubiquiti"
-    Comment="WA ubiquiti radio firmware"
-    EvaluatedDefinition="&lt;Radio Firmware Ubiquiti&gt;">&lt;Radio Firmware Ubiquiti&gt;</Variable>
-  <Variable
     Name="Company Short Name"
-    Comment="Company intials for internal docs"
-    EvaluatedDefinition="DCE">DCE</Variable>
-  <Variable
-    Name="Document Code"
-    Comment="GC, WA—use DC otherwise"
-    EvaluatedDefinition="&lt;Document Code&gt;">&lt;Document Code&gt;</Variable>
-  <Variable
-    Name="Radio Firmware Cambium"
-    Comment="WA Cambium radio firmware"
-    EvaluatedDefinition="&lt;Radio Firmware Cambium&gt;">&lt;Radio Firmware Cambium&gt;</Variable>
+    Comment="GLOBAL: Company intials for internal docs"
+    EvaluatedDefinition="FFE">FFE</Variable>
 </CatapultVariableSet>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet
+  conditions="">
+  <Variable
+    Name="Document Type"
+    Comment="Operator's Manual, Service Manual, Technical Manual, Parts Manual, Workshop Manual"
+    OriginalName="PDFGuideTitle"
+    EvaluatedDefinition="&lt;Document Type&gt;">&lt;Document Type&gt;</Variable>
+  <Variable
+    Name="Document Code"
+    OriginalName="VersionNumberDot"
+    EvaluatedDefinition="&lt;Document Code&gt;"
+    Comment="The DCE doc type — usually MANU">&lt;Document Code&gt;</Variable>
+  <Variable
+    Name="Application"
+    Comment="The machine acronym (GC, FC)"
+    EvaluatedDefinition="&lt;Machine Acronym&gt;">&lt;Machine Acronym&gt;</Variable>
+  <Variable
+    Name="Primary Machine Type"
+    Comment="winch, carriage, yarder"
+    EvaluatedDefinition="&lt;Primary Machine Type&gt;">&lt;Primary Machine Type&gt;</Variable>
+  <Variable
+    Name="Product Name (Bug)"
+    EvaluatedDefinition="&lt;Product Name Bug&gt;">&lt;Product Name Bug&gt;</Variable>
+  <Variable
+    Name="Revision Number"
+    EvaluatedDefinition="&lt;Revision Number&gt;">&lt;Revision Number&gt;</Variable>
+  <Variable
+    Name="Version Number"
+    EvaluatedDefinition="&lt;Version Number&gt;">&lt;Version Number&gt;</Variable>
+  <Variable
+    Name="Product Version"
+    EvaluatedDefinition="&lt;Product Version&gt;">&lt;Product Version&gt;</Variable>
+  <Variable
+    Name="Document Number"
+    Comment="For example A0058"
+    EvaluatedDefinition="&lt;Document Number&gt;">&lt;Document Number&gt;</Variable>
+  <Variable
+    Name="Product Code"
+    Comment="GC, WA—use DC otherwise"
+    EvaluatedDefinition="&lt;Product Code&gt;">&lt;Product Code&gt;</Variable>
+  <Variable
+    Name="Secondary Machine Type"
+    Comment="The machine or product used with the product: grapple carriage, skidder, etc"
+    EvaluatedDefinition="&lt;Secondary Machine Type&gt;">&lt;Secondary Machine Type&gt;</Variable>
+  <Variable
+    Name="Product Name"
+    Comment=""
+    EvaluatedDefinition="&lt;Product Name&gt;">&lt;Product Name&gt;</Variable>
+</CatapultVariableSet>

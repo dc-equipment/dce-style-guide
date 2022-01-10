@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>Working with Madcap Flare projects</h1>
+        <p>This section describes how to correctly set up, use, and maintain your Flare projects with source control and within the project synchronization system.</p>
+        <h2>Create a new project</h2>
+        <p class="Note" MadCap:autonum="&lt;b&gt;Note - &lt;/b&gt;">Always copy an existing folder to create a new project. This preserves the file mappings and pulls in the common stylistic and layout elements.</p>
+        <ol>
+            <li>Copy an existing project folder and rename it as required.</li>
+            <li>Open the .flprj file in a text editor and change the <span class="Code">SourceControlBound</span> value to "false". This disables source control for the project but keeps the connection settings in the configuration.</li>
+            <li>Rename the  .flprj file as required. </li>
+            <li>Open the project's properties dialog box and click Bind Project. </li>
+            <li>Select Git as the source control provider.</li>
+            <li>Check Remote Repository and enter the link to the remote repository.</li>
+            <li>Enter your source control account Name and Email and click OK.<p class="Note" MadCap:autonum="&lt;b&gt;Note - &lt;/b&gt;">Ensure that you have an SSH&#160;key saved for your source control account and that the owner has added this key for the repository.</p></li>
+            <li>Open the project and click the project tab.</li>
+            <li>Click Synchronize Files.<p class="Note" MadCap:autonum="&lt;b&gt;Note - &lt;/b&gt;">Ensure that you are connected to SharePoint in SharePoint Explorer.</p></li>
+        </ol>
+        <h2>Commit project changes </h2>
+        <p>MadCap Flare should be set up to check-in your changes by default when you open a project. Ensure that you also push your changes to the remote repository by clicking Push in the Source Control ribbon.</p>
+        <p class="Tip" MadCap:autonum="&lt;b&gt;TIP - &lt;/b&gt;">If you can find it, run the <span class="Emphasis">flare-git-sync.bat</span> file to back up the remote repository to the Network drive. </p>
+    </body>
+</html>

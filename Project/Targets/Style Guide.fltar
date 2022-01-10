@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Style Guide"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  PatchHeadingLevels="true"
+  InjectEmptyPages="true"
+  MasterToc="/Project/TOCs/Style Guide.fltoc"
+  MasterStylesheet="/Content/Resources/Stylesheets/PDF.css"
+  ConditionTagExpression="exclude[Global.Comments or Global.ProductOnly]"
+  OutputFile="[%=Local.Application%]000-[%=Local.Document Code%]-[%=Local.Revision Number%]-[%=Local.Document Type%]">
+  <PrintedOutput
+    CollapseMargins="false"
+    ExpandingTextConversion="expand"
+    PopupConversion="remove-body"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false"
+    OutputFormat="doc" />
+  <DocumentProperties
+    Title="[%=Local.Product Name%] [%=Local.Document Type%]"
+    Author="Myron Rodrigues" />
+  <PDF
+    ShowUsedBookmarks="false"
+    InitialMagnification="75"
+    PageLayout="OneColumn"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true"
+    CropAndRegistrationMarks="false"
+    ConvertToCMYK="true" />
+  <Variables>
+    <Variable
+      Name="Local/Application">SG</Variable>
+    <Variable
+      Name="Local/Document Code">MANU</Variable>
+    <Variable
+      Name="Local/Document Number">ANNNN</Variable>
+    <Variable
+      Name="Local/Product Code">DC</Variable>
+    <Variable
+      Name="Local/Version Number">1.0</Variable>
+    <Variable
+      Name="Local/Revision Number">0DRAFT</Variable>
+    <Variable
+      Name="Local/Document Type">Writer’s style guide</Variable>
+    <Variable
+      Name="Local/Product Version"> </Variable>
+    <Variable
+      Name="Global/Month">March</Variable>
+    <Variable
+      Name="Local/Product Name"> </Variable>
+  </Variables>
+</CatapultTarget>

@@ -19,7 +19,7 @@
                     <xhtml:head>
                     </xhtml:head>
                     <xhtml:body>
-                        <xhtml:p xhtml:class="FooterLeft" MadCap:autonum="&lt;b&gt;1&lt;/b&gt;"><MadCap:variable xhtml:name="Global.Document Name" />
+                        <xhtml:p xhtml:class="FooterLeft"><MadCap:variable xhtml:name="Local.Document Type" />
                         </xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
@@ -45,7 +45,7 @@
                     <xhtml:head>
                     </xhtml:head>
                     <xhtml:body>
-                        <xhtml:p xhtml:class="FooterRight" MadCap:autonum="&lt;b&gt;1&lt;/b&gt;"><MadCap:variable xhtml:name="Global.Document Name" />
+                        <xhtml:p xhtml:class="FooterRight"><MadCap:variable xhtml:name="Local.Document Type" />
                         </xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
@@ -88,7 +88,7 @@
                     <xhtml:head>
                     </xhtml:head>
                     <xhtml:body>
-                        <xhtml:p xhtml:class="FooterLeft" MadCap:autonum="&lt;b&gt;1&lt;/b&gt;"><MadCap:variable xhtml:name="Global.Document Name" />
+                        <xhtml:p xhtml:class="FooterLeft"><MadCap:variable xhtml:name="Local.Document Type" />
                         </xhtml:p>
                     </xhtml:body>
                 </xhtml:html>

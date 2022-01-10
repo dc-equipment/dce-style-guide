@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title></title>
+    </head>
+    <body>
+        <h1>Madcap Flare setup and overview</h1>
+        <p>Madcap Flare is a content management system (CMS) that is used to write and publish content in a wide variety of formats without altering the source. This is call single-sourcing. Flare is completely XML-based, from the content structuring itself, right down to the layout and publishing components. This means that all the files that you'll create and use for publishing are <i>static</i>—that is, you do not connect to a database or shared file system and all the files in your project reside on your local drive. This presents certain obstacles to maintaining consistency across your projects because: (a) changes made to the layout in one project are not updated in the others; and (b) changes made in the same project by one writer are not updated in another writer's local copy. The latter is easily resolved using a source-control system like Github or SVN. Read more about <a href="https://help.madcapsoftware.com/flare2021r2/Content/Flare/Source-Control/Source-Control.htm">Source Control</a> in Flare.</p>
+        <p>
+            <img src="../Images/pic_Flare_Source_Control.png" class="Graphic" />
+        </p>
+        <p>Source control takes care of intra-project synchronization, but what about inter-project maintenance of the stylistic and publishing components? Flare officially supports a global synchronization option with a master (or parent) project. See <a href="https://www.madcapsoftware.com/blog/generating-consolidated-output-multiple-madcap-flare-projects-part-1/">Generating a Consolidated Output from Multiple MadCap Flare Projects</a> and <a href="https://www.madcapsoftware.com/webinars/single-sourcing-best-practices-multiple-madcap-flare-projects">Single-sourcing Best Practices with Multiple MadCap Flare Projects</a> for more information. </p>
+        <p><MadCap:variable name="Global.Company Short Name" /> uses a hybrid solution with a parent repository, containing the publishing components and other shared files, stored in a SharePoint folder. The individual local projects use GIT for source control. </p>
+        <p>
+            <img src="../Images/i_SG_flareLibrarySync.svg" class="Graphic" />
+        </p>
+        <p class="Note" MadCap:autonum="&lt;b&gt;Note - &lt;/b&gt;">Synchronization between the master project and project is a two-way process.</p>
+        <table style="width: 100%;">
+            <col />
+            <col />
+            <tbody>
+                <tr>
+                    <th>SharePoint folder location</th>
+                    <td>
+                        <p>&#160;</p>
+                    </td>
+                </tr>
+                <tr>
+                    <th>MS Teams folder location</th>
+                    <td>Design &gt; Product Manuals &gt; (Files) &gt; Flare</td>
+                </tr>
+                <tr>
+                    <th>SharePoint folder contents (that is, the shared project files)</th>
+                    <td>
+                        <p>Project</p>
+                        <ul>
+                            <li>
+                                <p>ConditionTagSets</p>
+                                <ul>
+                                    <li>Global.flcts</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p>Skins</p>
+                                <ul>
+                                    <li>Default.flskn</li>
+                                    <li>HTML5 - Side Navigation.flskn</li>
+                                    <li>HTML5 - Top Navigation.flskn</li>
+                                </ul>
+                            </li>
+                            <li>Targets<ul><li>Review.fltar</li></ul></li>
+                            <li>
+                                <p>VariableSets</p>
+                                <ul>
+                                    <li>Global.flvar</li>
+                                    <li>Local.flvar</li>
+                                    <li>Winch.flvar</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <p>Resources</p>
+                        <ul>
+                            <li>
+                                <p>Fonts</p>
+                            </li>
+                            <li>
+                                <p>Graphics</p>
+                            </li>
+                            <li>
+                                <p>MasterPages</p>
+                            </li>
+                            <li>
+                                <p>PageLayouts</p>
+                            </li>
+                            <li>
+                                <p>Scripts</p>
+                            </li>
+                            <li>
+                                <p>Snippets</p>
+                            </li>
+                            <li>
+                                <p>Stylesheets</p>
+                            </li>
+                            <li>
+                                <p>Templates</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="Note" MadCap:autonum="&lt;b&gt;Note - &lt;/b&gt;">The shared files are individually mapped, so if you create a new project, you will have to individually map these files. Best practice is to copy an existing project and delete its specific files.</p>
+        <h2>General overview</h2>
+        <p>A full overview or introduction is beyond the scope of this style guide. Read the <a href="https://www.madcapsoftware.com/products/flare/getting-started/">Getting Started with MadCap Flare</a> online guide.</p>
+        <p>The key points for those familiar with other CMSs are as follows:</p>
+        <ul>
+            <li>You write and save your content to HTML files. The schema follows some version of the HTML5 standard with proprietary XML&#160;tags for variables, conditions, and snippets.</li>
+            <li>The HTML (and other) tags are styles by a subset of the CSS3 standard, so not all elements and properties are supported. Additionally, Flare-specific elements are available, mostly for PDF styling.</li>
+            <li>You design the layout of print outputs like PDF&#160;and WORD visually using Page Layouts in the layout editor. You can use CSS&#160;styles to complement the design of the layout editor.</li>
+            <li>&#160;</li>
+        </ul>
+        <h2>Good housekeeping</h2>
+        <p>Follow these best practices for organizing your files and content:</p>
+        <ul>
+            <li>
+                <p>Images</p>
+                <ul>
+                    <li>
+                        <p>Use SVGs for your vector illustrations as this format is natively supported in Flare. See <MadCap:xref href="APPX_SVG_Settings.htm" class="Caption">Appendix A SVG compatibility and export settings</MadCap:xref> for more information.</p>
+                        <p class="Tip" MadCap:autonum="&lt;b&gt;TIP - &lt;/b&gt;">Always save your source file in PDF&#160;format and export to SVG format.</p>
+                    </li>
+                    <li>
+                        <p>Use camel-case for naming your images in a descriptive way and prepend <i>i_</i> or <i>pic_</i> to your vector and raster files respectively. For example, <i>i_GC_engineTuningMeasureRPM.svg</i> and <i>pic_WA_XMDAppAddPoint.jpg</i>.</p>
+                    </li>
+                    <li>
+                        <p>Style your images using the predefined styles in the stylesheet. </p>
+                    </li>
+                </ul>
+            </li>
+            <li>Topic files<ul><li>In projects with multiple products, prepend the product's code to the topic's file name. For example, <i>WA_Safety_Alarms.htm</i>.<br />For shared topics, prepend <i>zgen_</i> to the topic's file name. For example, <i>zgen_General_Safety.htm</i>.</li><li>Prepend the topic type for chapter (<i>CH_</i>) and appendix (<i>APPX_</i>) topics. For example, <i>WA_APPX_Wear_Limits.htm</i>.</li></ul></li>
+            <li>Snippets<ul><li><p>Save your snippets in the Topics folder and not in the Snippets folder.</p></li><li><p>Prepend <i>zsnp_</i> to snippet files. For example <i>zsnp_WA_procTuning.flsnp</i>.</p><p class="Note" MadCap:autonum="&lt;b&gt;Note - &lt;/b&gt;">Add a descriptive abbreviation of the type of topic (like "proc" for procedure).</p></li></ul></li>
+            <li>Alerts<ul><li>Save your alerts as snippets when they can be reused. </li><li>Follow a similar naming convention as described above for your snippet files.</li></ul></li>
+        </ul>
+        <p>&#160;</p>
+    </body>
+</html>

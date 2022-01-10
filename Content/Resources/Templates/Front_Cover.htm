@@ -3,28 +3,29 @@
     <head><title>Front Cover</title>
     </head>
     <body>
-        <p class="TitleName"><MadCap:variable name="Global.Document Name" />
+        <p class="TitleBook"><MadCap:variable name="Local.Product Name" />
         </p>
-        <p class="TitleBook"><MadCap:variable name="Global.Product Name (Bug)" />
+        <p class="TitleName"><MadCap:variable name="Local.Document Type" />
+        </p>
+        <p class="SubtitleBook"><MadCap:variable name="Local.Product Version" />
         </p>
         <table style="width: 100%;" class="Borderless">
-            <col style="width: 40%;" />
-            <col style="width: 60%;" />
+            <col style="width: 50%;" />
+            <col />
             <tbody>
                 <tr>
-                    <td><span class="SubtitleBook"><MadCap:variable name="Global.Product Version" /></span>
-                    </td>
-                    <td>
-                        <img src="../../Images/i_[%=Global.Application%]_cover.svg" class="GraphicCover" />
+                    <td>&#160;</td>
+                    <td class="alignRight">
+                        <img src="../../Images/i_[%=Local.Application%]_cover.svg" class="GraphicCover" />
                     </td>
                 </tr>
             </tbody>
         </table>
         <p class="TOCHeading" MadCap:conditions="Global.Comments">Contents</p>
         <MadCap:tocProxy MadCap:conditions="Global.Comments" />
-        <div class="copyright">
+        <div class="copyright" MadCap:conditions="Global.ProductOnly">
             <p>© <MadCap:variable name="Global.Year" /> <MadCap:variable name="Global.Company Name (Bug)" />. All rights reserved.</p>
-            <p>The information, diagrams, images, and specifications in this manual are based on the latest product information available at the time of publication. As <MadCap:variable name="Global.Company Name" /> is continuously improving  its products and advancing their design, it reserves the right to modify or change the specification of its products at any time without notice. You may copy parts of this manual for your personal reference, but you may not use its contents for any other purpose without the prior consent of  <MadCap:variable name="Global.Company Name" />. <MadCap:variable name="Global.Company Name" /> endeavors to ensure that the contents of this manual, including images, are correct but does not accept any liability for error, omission, or differences with the finished product. Whenever a question arises regarding the product, or this manual, consult your <MadCap:variable name="Global.Company Name" /> dealer for the latest available information.</p>
+            <p>The information, diagrams, images, and specifications in this manual are based on the latest product information available at the time of publication. As <MadCap:variable name="Global.Company Name" /> is continuously improving  its products and advancing their design, it reserves the right to modify or change the specification of its products at any time without notice. You may copy parts of this manual for your personal reference, but you may not use its contents for any other purpose without the prior consent of  <MadCap:variable name="Global.Company Name" />. <MadCap:variable name="Global.Company Name" /> endeavors to ensure that the contents of this manual, including images, are correct but does not accept any liability for error, omission, or differences with the finished product. Whenever a question arises regarding the product, or this manual, consult your <MadCap:snippetText src="../../Topics/zsnp_gen_contactAuthorizedDealer.flsnp" /> for the latest available information.</p>
             <p> </p>
         </div>
     </body>

@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PageStyles>
-    <Page Name="Back" Width="800" Height="800" Padding="1in" PageSize="A4" PaddingLeft="0" PaddingRight="0" PaddingTop="0" PaddingBottom="0" BackgroundColor="#024c97" BackgroundColorAlt="#024c97" BackgroundType="Solid" BleedLeft="0.50in" BleedRight="0.50in" BleedTop="0.50in" BleedBottom="0.50in">
-        <Frame Flow="body" ColumnCount="1" ColumnGap="0.25in" ColumnDivider="Solid 1pt Black" Width="300px" Height="300px" X="91px" Y="738px" Right="403px" Bottom="85px" Anchors="">
+    <Page Name="Back" Width="800" Height="800" Padding="1in" PageSize="A4" PaddingLeft="0" PaddingRight="0" PaddingTop="0" PaddingBottom="0" BackgroundColor="transparent" BackgroundColorAlt="#024c97" BackgroundType="Solid" BleedLeft="0.50in" BleedRight="0.50in" BleedTop="0.50in" BleedBottom="0.50in">
+        <Frame Flow="body" ColumnCount="1" ColumnGap="0.25in" ColumnDivider="Solid 1pt Black" Width="346px" Height="73px" X="401px" Y="1003px" Right="47px" Bottom="47px" Anchors="">
         </Frame>
         <Frame X="358px" Y="-13px" Width="461px" Height="94px" Right="-25px" Bottom="1042px" Anchors="" BackgroundRepeat="no-repeat" BackgroundPositionX="right" BackgroundPositionY="top" Flow="decoration0" />
-        <Frame X="420px" Y="897px" Width="294px" Height="153px" Flow="decoration2" Right="80px" Bottom="73px" BackgroundImage="../Graphics/ffe_1.svg" BackgroundRepeat="stretch" Anchors="" />
+        <Frame X="547px" Y="953px" Width="200px" Height="51px" Flow="decoration2" Right="47px" Bottom="119px" BackgroundImage="../Graphics/FFE_logo_primary_RGB.svg" BackgroundRepeat="no-repeat" Anchors="" />
     </Page>
 </PageStyles>

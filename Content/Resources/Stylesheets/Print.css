@@ -80,6 +80,7 @@
 
   img.GraphicCover {
     max-width: 400px;
+    float: right;
   }
 
   img.Schematic {
@@ -101,15 +102,16 @@
     position: absolute;
     bottom: 0;
     left: 0;
+    text-align: right;
   }
 
   div.address h2 {
     mc-heading-level: 0;
-    color: white;
+    /*color: white;*/
   }
 
   div.address p {
-    color: white;
+    /*color: white;*/
   }
 
   body div.copyright {
@@ -212,7 +214,7 @@
   }
 
   img.GraphicTableSmall {
-    max-width: 5vh;
+    /*max-width: 5vh;*/
   }
 
   img.GraphicCover {
@@ -305,16 +307,31 @@
   }
 }
 
-p.TitleBook {
-  font-size: 2em;
+p.TitleLogo {
+  font-size: 4.5em;
+  line-height: 1;
   font-weight: 700;
-  font-family: "Orbitron";
+  font-family: "Roboto Condensed";
+  color: white;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+p.TitleBook {
+  font-size: 2.85em;
+  line-height: 1;
+  font-weight: 700;
+  font-family: "Roboto Condensed";
+  color: white;
+  text-transform: none;
+  text-align: right;
 }
 
 p.TitleName {
   mc-hyphenate: never;
   font-size: 2em;
-  font-family: "Orbitron";
+  font-family: "Roboto Condensed";
+  text-align: right;
 }
 
 p.SubtitleBook,
@@ -322,7 +339,8 @@ span.SubtitleBook {
   mc-hyphenate: never;
   font-size: 1.5em;
   font-weight: 700;
-  font-family: "Orbitron";
+  font-family: "Roboto Condensed";
+  text-align: right;
 }
 
 p.Doc_ID {
@@ -352,7 +370,7 @@ p.ChapterHead {
   font-size: 1em;
   text-transform: uppercase;
   font-weight: 900;
-  font-family: "Source Sans Pro Black";
+  font-family: "Roboto Black";
   margin-top: 4em;
   margin-bottom: -6em;
   text-align: right;
@@ -361,7 +379,7 @@ p.ChapterHead {
 p.ChapterNum {
   font-size: 4em;
   font-weight: 900;
-  font-family: "Source Sans Pro Black";
+  font-family: "Roboto Black";
   text-align: right;
 }
 
@@ -445,16 +463,16 @@ MadCap|tocProxy {
 }
 
 p.TOCHeading {
-  font: "Source Sans Pro", sans-serif;
-  font-family: "Source Sans Pro Semi-bold";
-  font-weight: 600;
+  font: "Roboto", sans-serif;
+  font-family: "Roboto Bold";
+  font-weight: 700;
   font-size: 1.25em;
   mc-heading-level: 0;
 }
 
 p.TOC1 {
-  font-family: "Source Sans Pro Semi-bold";
-  font-weight: 600;
+  font-family: "Roboto Bold";
+  font-weight: 700;
   page-break-after: avoid;
   margin-bottom: 0;
   mc-auto-number-position: none;
@@ -550,7 +568,7 @@ div.address h2 {
   mc-heading-level: 0;
   font-weight: bold;
   font-weight: 700;
-  font-family: "Orbitron";
+  font-family: "Roboto Condensed";
 }
 
 div.address p {
@@ -610,8 +628,8 @@ div.Watermark {
   float: right;
   z-index: -1;
   position: absolute; /*newly added*/
-  right: 4 cm; /*newly added*/
-  bottom: 8 cm; /*newly added*/
+  right: 30%; /*newly added*/
+  bottom: 50%; /*newly added*/
 }
 
 div.Watermark img {

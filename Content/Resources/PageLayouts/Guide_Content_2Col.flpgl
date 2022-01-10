@@ -1,89 +1,89 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PageStyles>
     <Page Width="800" Height="800" Padding="1in" PageSize="A4" PaddingLeft="0" PaddingRight="0" PaddingTop="0" PaddingBottom="0" PageType="right" Name="Right">
-        <Frame X="76px" Y="1045px" Width="643px" Height="32px" Flow="footer" Right="75px" Bottom="46px" Anchors="">
+        <Frame X="50px" Y="1045px" Width="695px" Height="32px" Flow="footer" Right="49px" Bottom="46px" Anchors="">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:body>
                         <MadCap:snippetBlock xhtml:src="../Snippets/Watermark.flsnp" MadCap:conditions="Global.DRAFT" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-                        <xhtml:p xhtml:class="Footer"><MadCap:variable xhtml:name="Global.Document Name" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> | <MadCap:variable xhtml:name="System.PageNumber" xhtml:style="font-weight: bold;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                        <xhtml:p xhtml:class="Footer"><MadCap:variable xhtml:name="Local.Document Type" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> | <MadCap:variable xhtml:name="System.PageNumber" xhtml:style="font-weight: bold;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
         </Frame>
-        <Frame X="76px" Y="46px" Width="643px" Height="32px" Flow="header" Right="75px" Bottom="10.88542in" Anchors="" />
-        <Frame X="76px" Y="123px" Width="643px" Height="875px" Flow="body" Right="75px" Bottom="125px" Anchors="" ColumnCount="2" ColumnGap="0.65cm" />
+        <Frame X="50px" Y="46px" Width="695px" Height="32px" Flow="header" Right="49px" Bottom="10.88542in" Anchors="" />
+        <Frame X="50px" Y="123px" Width="695px" Height="875px" Flow="body" Right="49px" Bottom="125px" Anchors="" ColumnCount="2" ColumnGap="0.65cm" />
     </Page>
     <Page Width="800" Height="800" Padding="1in" PageSize="A4" PaddingLeft="0" PaddingRight="0" PaddingTop="0" PaddingBottom="0" PageType="left" Name="Left">
-        <Frame X="76px" Y="1045px" Width="643px" Height="32px" Flow="footer" Right="75px" Bottom="46px" Anchors="">
+        <Frame X="50px" Y="1045px" Width="695px" Height="32px" Flow="footer" Right="49px" Bottom="46px" Anchors="">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:body>
                         <MadCap:snippetBlock xhtml:src="../Snippets/Watermark.flsnp" MadCap:conditions="Global.DRAFT" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-                        <xhtml:p xhtml:class="FooterLeft"><MadCap:variable xhtml:name="System.PageNumber" xhtml:style="font-weight: bold;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> | <MadCap:variable xhtml:name="Global.Document Name" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                        <xhtml:p xhtml:class="FooterLeft"><MadCap:variable xhtml:name="System.PageNumber" xhtml:style="font-weight: bold;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> | <MadCap:variable xhtml:name="Local.Document Type" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
         </Frame>
-        <Frame X="76px" Y="46px" Width="643px" Height="32px" Flow="header" Right="75px" Bottom="1045px" Anchors="" />
-        <Frame X="76px" Y="123px" Width="643px" Height="875px" Flow="body" Right="75px" Bottom="125px" Anchors="" ColumnCount="2" ColumnGap="0.65cm" />
+        <Frame X="50px" Y="46px" Width="695px" Height="32px" Flow="header" Right="49px" Bottom="1045px" Anchors="" />
+        <Frame X="50px" Y="123px" Width="695px" Height="875px" Flow="body" Right="49px" Bottom="125px" Anchors="" ColumnCount="2" ColumnGap="0.65cm" />
     </Page>
     <Page Width="800" Height="800" Padding="1in" PageSize="A4" PaddingLeft="0" PaddingRight="0" PaddingTop="0" PaddingBottom="0" PageType="firstright" Name="First Right">
-        <Frame X="76px" Y="1045px" Width="643px" Height="32px" Flow="footer" Right="75px" Bottom="46px" Anchors="">
+        <Frame X="50px" Y="1045px" Width="695px" Height="32px" Flow="footer" Right="49px" Bottom="46px" Anchors="">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:body>
                         <MadCap:snippetBlock xhtml:src="../Snippets/Watermark.flsnp" MadCap:conditions="Global.DRAFT" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-                        <xhtml:p xhtml:class="FooterRight"><MadCap:variable xhtml:name="Global.Document Name" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> | <MadCap:variable xhtml:name="System.PageNumber" xhtml:style="font-weight: bold;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                        <xhtml:p xhtml:class="FooterRight"><MadCap:variable xhtml:name="Local.Document Type" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> | <MadCap:variable xhtml:name="System.PageNumber" xhtml:style="font-weight: bold;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
         </Frame>
-        <Frame X="76px" Y="46px" Width="643px" Height="32px" Flow="header" Right="75px" Bottom="1045px" Anchors="" />
-        <Frame X="76px" Y="200px" Width="643px" Height="2.566458cm" Flow="body" Right="75px" Bottom="826px" Anchors="" />
-        <Frame X="76px" Y="298px" Width="643px" Height="702px" FlowIndex="1" Flow="body" Right="75px" Bottom="123px" ColumnCount="2" ColumnGap="0.65cm" Anchors="" />
+        <Frame X="50px" Y="46px" Width="695px" Height="32px" Flow="header" Right="49px" Bottom="1045px" Anchors="" />
+        <Frame X="50px" Y="200px" Width="695px" Height="2.566458cm" Flow="body" Right="49px" Bottom="826px" Anchors="" />
+        <Frame X="50px" Y="298px" Width="695px" Height="702px" FlowIndex="1" Flow="body" Right="49px" Bottom="123px" ColumnCount="2" ColumnGap="0.65cm" Anchors="" />
     </Page>
     <Page Width="800" Height="800" Padding="1in" PageSize="A4" PaddingLeft="0" PaddingRight="0" PaddingTop="0" PaddingBottom="0" PageType="firstleft" Name="First Left">
-        <Frame X="76px" Y="1045px" Width="643px" Height="32px" Flow="footer" Right="75px" Bottom="46px" Anchors="">
+        <Frame X="50px" Y="1045px" Width="695px" Height="32px" Flow="footer" Right="49px" Bottom="46px" Anchors="">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:body>
                         <MadCap:snippetBlock xhtml:src="../Snippets/Watermark.flsnp" MadCap:conditions="Global.DRAFT" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-                        <xhtml:p xhtml:class="FooterLeft"><MadCap:variable xhtml:name="Global.Document Name" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> | <MadCap:variable xhtml:name="System.PageNumber" xhtml:style="font-weight: bold;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                        <xhtml:p xhtml:class="FooterLeft"><MadCap:variable xhtml:name="Local.Document Type" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> | <MadCap:variable xhtml:name="System.PageNumber" xhtml:style="font-weight: bold;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
         </Frame>
-        <Frame X="76px" Y="46px" Width="643px" Height="32px" Flow="header" Right="75px" Bottom="1045px" Anchors="" />
-        <Frame X="76px" Y="200px" Width="643px" Height="2.566458cm" Flow="body" Right="75px" Bottom="826px" Anchors="" />
-        <Frame X="76px" Y="298px" Width="643px" Height="702px" FlowIndex="1" Flow="body" Right="75px" Bottom="123px" ColumnCount="2" ColumnGap="0.65cm" Anchors="" />
+        <Frame X="50px" Y="46px" Width="695px" Height="32px" Flow="header" Right="49px" Bottom="1045px" Anchors="" />
+        <Frame X="50px" Y="200px" Width="695px" Height="2.566458cm" Flow="body" Right="49px" Bottom="826px" Anchors="" />
+        <Frame X="50px" Y="298px" Width="695px" Height="702px" FlowIndex="1" Flow="body" Right="49px" Bottom="123px" ColumnCount="2" ColumnGap="0.65cm" Anchors="" />
     </Page>
     <Page Width="800" Height="800" Padding="1in" PageSize="A4" PaddingLeft="0" PaddingRight="0" PaddingTop="0" PaddingBottom="0" PageType="emptyleft" Name="Empty Left">
-        <Frame X="76px" Y="1045px" Width="643px" Height="32px" Flow="footer" Right="75px" Bottom="46px" Anchors="">
+        <Frame X="50px" Y="1045px" Width="695px" Height="32px" Flow="footer" Right="49px" Bottom="46px" Anchors="">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:body>
                         <MadCap:snippetBlock xhtml:src="../Snippets/Watermark.flsnp" MadCap:conditions="Global.DRAFT" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-                        <xhtml:p xhtml:class="FooterLeft"><MadCap:variable xhtml:name="System.PageNumber" xhtml:style="font-weight: bold;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> | <MadCap:variable xhtml:name="Global.Document Name" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                        <xhtml:p xhtml:class="FooterLeft"><MadCap:variable xhtml:name="System.PageNumber" xhtml:style="font-weight: bold;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> | <MadCap:variable xhtml:name="Local.Document Type" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
         </Frame>
-        <Frame X="76px" Y="123px" Width="643px" Height="875px" Flow="body" Right="75px" Bottom="125px" Anchors="" />
-        <Frame X="76px" Y="46px" Width="643px" Height="32px" Flow="header" Right="75px" Bottom="1045px" Anchors="" />
+        <Frame X="50px" Y="123px" Width="695px" Height="875px" Flow="body" Right="49px" Bottom="125px" Anchors="" />
+        <Frame X="50px" Y="46px" Width="695px" Height="32px" Flow="header" Right="49px" Bottom="1045px" Anchors="" />
     </Page>
     <Page Width="800" Height="800" Padding="1in" PageSize="A4" PaddingLeft="0" PaddingRight="0" PaddingTop="0" PaddingBottom="0" PageType="emptyright" Name="Empty Right">
-        <Frame X="76px" Y="1045px" Width="643px" Height="32px" Flow="footer" Right="75px" Bottom="46px" Anchors="">
+        <Frame X="50px" Y="1045px" Width="695px" Height="32px" Flow="footer" Right="49px" Bottom="46px" Anchors="">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
                     <xhtml:body>
                         <MadCap:snippetBlock xhtml:src="../Snippets/Watermark.flsnp" MadCap:conditions="Global.DRAFT" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-                        <xhtml:p xhtml:class="Footer"><MadCap:variable xhtml:name="Global.Document Name" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> | <MadCap:variable xhtml:name="System.PageNumber" xhtml:style="font-weight: bold;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
+                        <xhtml:p xhtml:class="Footer"><MadCap:variable xhtml:name="Local.Document Type" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /> | <MadCap:variable xhtml:name="System.PageNumber" xhtml:style="font-weight: bold;" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" /></xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
         </Frame>
-        <Frame X="76px" Y="123px" Width="643px" Height="875px" Flow="body" Right="75px" Bottom="125px" Anchors="" />
-        <Frame X="76px" Y="46px" Width="643px" Height="32px" Flow="header" Right="75px" Bottom="1045px" Anchors="" />
+        <Frame X="50px" Y="123px" Width="695px" Height="875px" Flow="body" Right="49px" Bottom="125px" Anchors="" />
+        <Frame X="50px" Y="46px" Width="695px" Height="32px" Flow="header" Right="49px" Bottom="1045px" Anchors="" />
     </Page>
 </PageStyles>

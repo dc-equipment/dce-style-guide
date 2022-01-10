@@ -24,8 +24,8 @@ body {
   color: #000000;
   line-height: 140%;
   mc-hyphenate: never;
-  font: "source sans pro", sans-serif;
-  font-family: "Source Sans Pro Light", "Source Sans Pro", sans-serif;
+  font: "Roboto", sans-serif;
+  font-family: "Roboto Light", "Roboto", sans-serif;
   font-weight: 300;
   font-size: 10pt;
 }
@@ -38,8 +38,8 @@ h4,
 h5,
 h6 {
   page-break-after: avoid;
-  font: "Source Sans Pro", sans-serif;
-  font-family: "Source Sans Pro Bold", "Source Sans Pro", sans-serif;
+  font: "Roboto", sans-serif;
+  font-family: "Roboto Bold", "Roboto", sans-serif;
   font-weight: 700;
   clear: both;
 }
@@ -109,8 +109,8 @@ div.alert {
 
 div.alertBody {
   margin-left: 115px;
-  font: "Source Sans Pro", sans-serif;
-  font-family: "Source Sans Pro Regular", "Source Sans Pro", sans-serif;
+  font: "Roboto", sans-serif;
+  font-family: "Roboto Regular", "Roboto", sans-serif;
   font-weight: 400;
   margin-top: -4em;
   font-size: 90%;
@@ -138,7 +138,7 @@ img.alertIcon {
 
 div.alertLabel span {
   text-transform: uppercase;
-  font-family: "Source Sans Pro Black", "Source Sans Pro", sans-serif;
+  font-family: "Roboto Black", "Roboto", sans-serif;
   font-size: 1em;
   font-weight: 900;
   border-radius: 2px;
@@ -189,8 +189,8 @@ table.Alert td {
 
 table.Alert td:nth-child(2) {
   width: 75%;
-  font: "Source Sans Pro", sans-serif;
-  font-family: "Source Sans Pro Regular", "Source Sans Pro", sans-serif;
+  font: "Roboto", sans-serif;
+  font-family: "Roboto Regular", "Roboto", sans-serif;
   font-weight: 400;
   font-size: 90%;
 }
@@ -202,7 +202,7 @@ table.Alert td:nth-child(1) div {
 
 table.Alert td:nth-child(1) div span {
   text-transform: uppercase;
-  font-family: "Source Sans Pro Black", "Source Sans Pro", sans-serif;
+  font-family: "Roboto Black", "Roboto", sans-serif;
   font-size: 1em;
   font-weight: 900;
   border-radius: 2px;
@@ -430,7 +430,7 @@ table.Safety th,
 th.Safety {
   background-color: #00a86b;
   text-align: center;
-  font-family: "Source Sans Pro Black";
+  font-family: "Roboto Black";
   font-size: 1em;
   font-weight: 900;
   color: white;
@@ -561,8 +561,8 @@ img.GraphicTableMid {
 }
 
 img.GraphicTableSmall {
-  max-width: 10%;
-  max-width: 5vw;
+  max-width: 5%;
+  max-width: 2.5vw;
 }
 
 img.GraphicCover {
@@ -737,4 +737,16 @@ span.authornote {
   border: 0px;
   border-radius: 5px;
   padding: 2px;
+}
+
+/*** Style Guide styles ***/
+
+p.exampleCorrect::before {
+  content: "✓";
+  color: green;
+}
+
+p.exampleInCorrect::before {
+  content: "✘";
+  color: red;
 }
