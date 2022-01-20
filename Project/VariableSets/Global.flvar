@@ -19,15 +19,11 @@
   <Variable
     Name="Month"
     Comment="GLOBAL"
-    EvaluatedDefinition="&lt;Month&gt;">&lt;Month&gt;</Variable>
+    EvaluatedDefinition="March">March</Variable>
   <Variable
     Name="Language"
     Comment="GLOBAL"
     EvaluatedDefinition="ENG">ENG</Variable>
-  <Variable
-    Name="Product Name"
-    Comment="GLOBAL"
-    EvaluatedDefinition="&lt;Product Name&gt;">&lt;Product Name&gt;</Variable>
   <Variable
     Name="Revision"
     Comment="GLOBAL"
