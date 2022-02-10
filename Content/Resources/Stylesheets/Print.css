@@ -473,6 +473,7 @@ p.TOCHeading {
 p.TOC1 {
   font-family: "Roboto Bold";
   font-weight: 700;
+  line-height: 0.75em;
   page-break-after: avoid;
   margin-bottom: 0;
   mc-auto-number-position: none;
