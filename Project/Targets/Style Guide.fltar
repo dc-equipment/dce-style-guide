@@ -52,4 +52,10 @@
     <Variable
       Name="Local/Product Name"> </Variable>
   </Variables>
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/Github.fldes"
+      Publish="true"
+      IsResource="false" />
+  </Destinations>
 </CatapultTarget>
