@@ -108,6 +108,9 @@
       PageLayout="/Content/Resources/PageLayouts/Guide_Content.flpgl" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
+      Link="/Content/Topics/General_Colors.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
       Link="/Content/Topics/General_Madcap_Flare.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
       BreakType="pageLayout"
       PageType="continue"
@@ -177,9 +180,6 @@
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/Topics/Grammar_Verbs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/Topics/Grammar_Modal_Verbs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
   </TocEntry>
   <TocEntry
@@ -216,7 +216,8 @@
       BreakType="pageLayout"
       PageType="continue"
       StartSection="false"
-      PageLayout="/Content/Resources/PageLayouts/Guide_Content.flpgl" />
+      PageLayout="/Content/Resources/PageLayouts/Guide_Content.flpgl"
+      conditions="Global.Comments" />
     <TocEntry
       Title="[%=System.LinkedTitle%]"
       Link="/Content/Topics/UI_Error_Messages.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
