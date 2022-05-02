@@ -376,6 +376,15 @@ p.ChapterHead {
   text-align: right;
 }
 
+h1.ChapterHead {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: "Roboto Black";
+  /*margin-top: 2em;*/
+  text-align: right;
+}
+
 p.ChapterNum {
   font-size: 4em;
   font-weight: 900;
@@ -637,4 +646,32 @@ div.Watermark img {
   width: 260px;
   height: 260px;
   opacity: 0.25;
+}
+
+/* ----------------Index------------------- */
+
+MadCap|indexProxy {
+  border-top: none;
+}
+
+p.Index1 {
+  font-weight: bold;
+  margin-bottom: 0 !important;
+}
+p.Index2,
+p.Index3,
+p.Index4,
+p.Index5 {
+  font-weight: normal;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+p.IndexHeading {
+  font-family: "Roboto Black";
+  font-weight: 900;
+  border-bottom-width: 0px;
+  text-align: left;
 }
