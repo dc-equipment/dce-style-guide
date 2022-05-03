@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="DCE SharePoint for Shared Folders"
+  Host=""
+  User="MyAccountId"
+  Password=""
+  Directory="C:\OneDrive - Moutere Group\SharePoint—ModernMachinery—WA"
+  Port=""
+  ViewUrl="https://moutere.sharepoint.com/sites/DCEquipmentModernMachineryTraining/Shared%20Documents/Forms/AllItems.aspx?viewid=0b5f2f91%2D6ee4%2D43ff%2D9b81%2Daf89d3422f3e&amp;id=%2Fsites%2FDCEquipmentModernMachineryTraining%2FShared%20Documents%2FWA%20Winch%20Assist%2FProduct%20Manuals"
+  Type="file"
+  UploadLogFile="false"
+  RemoveStale="false"
+  ChangedOnly="false"></CatapultDestination>
