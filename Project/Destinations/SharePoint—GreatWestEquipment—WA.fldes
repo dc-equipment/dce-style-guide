@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="DCE SharePoint for Shared Folders"
+  Host=""
+  User="MyAccountId"
+  Password=""
+  Directory="C:\OneDrive - Moutere Group\SharePoint—GreatWestEquipment—WA"
+  Port=""
+  ViewUrl="https://moutere.sharepoint.com/sites/DCEquipmentGreatWestEquipmentDealerSupport/Shared%20Documents/Forms/AllItems.aspx?RootFolder=%2Fsites%2FDCEquipmentGreatWestEquipmentDealerSupport%2FShared%20Documents%2FWA%20Winch%20Assist%2FProduct%20Manuals&amp;FolderCTID=0x012000BF3D0C2C2ED88A49B4D4221D11B380CF"
+  Type="file"
+  UploadLogFile="false"
+  RemoveStale="false"
+  ChangedOnly="false"></CatapultDestination>

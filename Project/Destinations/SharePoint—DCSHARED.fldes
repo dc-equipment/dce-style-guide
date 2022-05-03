@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultDestination
+  Version="1"
+  Comment="DCE SharePoint for Shared Folders"
+  Host=""
+  User="MyAccountId"
+  Password=""
+  Directory="C:\OneDrive - Moutere Group\SharePoint—DCSHARED"
+  Port=""
+  ViewUrl="https://moutere.sharepoint.com/sites/DCSHAREDFOLDERS/Shared Documents/General/Product Manuals"
+  Type="file"
+  UploadLogFile="false"
+  RemoveStale="false"
+  ChangedOnly="false"></CatapultDestination>
