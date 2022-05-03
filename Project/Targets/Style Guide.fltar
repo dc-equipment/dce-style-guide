@@ -9,8 +9,8 @@
   InjectEmptyPages="true"
   MasterToc="/Project/TOCs/Style Guide.fltoc"
   MasterStylesheet="/Content/Resources/Stylesheets/PDF.css"
-  ConditionTagExpression="exclude[Global.Comments or Global.ProductOnly]"
-  OutputFile="[%=Local.Application%]000-[%=Local.Document Code%]-[%=Local.Revision Number%]-[%=Local.Document Type%]">
+  ConditionTagExpression="exclude[Global.Comments or Global.DRAFT or Global.ProductOnly]"
+  OutputFile="[%=Local.Product Code%]000-[%=Local.Document Code%]-[%=Local.Document Number%]-[%=Local.Revision Number%] [%=Local.Product Name%] [%=Local.Document Type%]">
   <PrintedOutput
     CollapseMargins="false"
     ExpandingTextConversion="expand"
@@ -36,21 +36,21 @@
     <Variable
       Name="Local/Document Code">MANU</Variable>
     <Variable
-      Name="Local/Document Number">ANNNN</Variable>
+      Name="Local/Document Number">A0297</Variable>
     <Variable
       Name="Local/Product Code">DC</Variable>
     <Variable
-      Name="Local/Version Number">3.0</Variable>
+      Name="Local/Version Number">1.0</Variable>
     <Variable
-      Name="Local/Revision Number">0DRAFT</Variable>
+      Name="Local/Revision Number">0</Variable>
     <Variable
       Name="Local/Document Type">Writer’s process &amp; style guide</Variable>
     <Variable
       Name="Local/Product Version"> </Variable>
     <Variable
-      Name="Global/Month">March</Variable>
+      Name="Global/Month">July</Variable>
     <Variable
-      Name="Local/Product Name"> </Variable>
+      Name="Local/Product Name">FFE</Variable>
   </Variables>
   <Destinations>
     <Destination

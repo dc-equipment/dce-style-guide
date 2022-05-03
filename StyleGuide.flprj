@@ -9,5 +9,10 @@
         <Mapping ProjectPath="Project/VariableSets/Winch.flvar" ExternalPath="https://moutere.sharepoint.com/sites/Design/Shared Documents/Product Manuals/Flare/Project/VariableSets/Winch.flvar" />
         <Mapping ProjectPath="Content/Resources/" ExternalPath="https://moutere.sharepoint.com/sites/Design/Shared Documents/Product Manuals/Flare/Resources/" />
         <Mapping ProjectPath="Project/VariableSets/Local.flvar" ExternalPath="https://moutere.sharepoint.com/sites/Design/Shared Documents/Product Manuals/Flare/Project/VariableSets/Local.flvar" />
+        <Mapping ProjectPath="Project/Destinations/Github.fldes" ExternalPath="https://moutere.sharepoint.com/sites/Design/Shared Documents/Product Manuals/Flare/Project/Destinations/Github.fldes" />
+        <Mapping ProjectPath="Project/Destinations/SharePoint—DCSHARED.fldes" ExternalPath="https://moutere.sharepoint.com/sites/Design/Shared Documents/Product Manuals/Flare/Project/Destinations/SharePoint—DCSHARED.fldes" />
+        <Mapping ProjectPath="Project/Destinations/SharePoint—GreatWestEquipment—WA.fldes" ExternalPath="https://moutere.sharepoint.com/sites/Design/Shared Documents/Product Manuals/Flare/Project/Destinations/SharePoint—GreatWestEquipment—WA.fldes" />
+        <Mapping ProjectPath="Project/Destinations/SharePoint—ModernMachinery—GC.fldes" ExternalPath="https://moutere.sharepoint.com/sites/Design/Shared Documents/Product Manuals/Flare/Project/Destinations/SharePoint—ModernMachinery—GC.fldes" />
+        <Mapping ProjectPath="Project/Destinations/SharePoint—ModernMachinery—WA.fldes" ExternalPath="https://moutere.sharepoint.com/sites/Design/Shared Documents/Product Manuals/Flare/Project/Destinations/SharePoint—ModernMachinery—WA.fldes" />
     </Synchronize>
 </CatapultProject>
